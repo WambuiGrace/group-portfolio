@@ -24,7 +24,7 @@
   
   /* Header and Navigation */
   header {
-    background-color: #0a4740;
+    background-image:url(images/background\ \(2\).png);
     color: white;
     padding: 1.5rem 5%;
     min-height: 100vh;
@@ -232,7 +232,7 @@
   .hero-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 35px;
   }
   
   /* About Section */
@@ -245,6 +245,8 @@
   
   .about-image {
     flex: 1;
+    max-width: 100%;
+    border-radius: 50px;
   }
   
   .about-image img {
