@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Portfolio</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo"> <!-- Replace with your logo image -->
+                <span>UI Portfolio</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li class="dropdown">
+                    <a href="#blog">Blog</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#blog1">Blog 1</a></li>
+                        <li><a href="#blog2">Blog 2</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#pages">Pages</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#page1">Page 1</a></li>
+                        <li><a href="#page2">Page 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="hire-me-btn">Hire Me</button>
+                <span class="search-icon">🔍</span>
+                <button class="theme-toggle">🌙</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content">
+                <h1>Hi, I'm John Watson</h1>
+                <h2 class="highlight">Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat. Nullam quis arcu feugiat.</p>
+                <div class="home-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#portfolio" class="btn btn-secondary">My Portfolio</a>
+                </div>
+            </div>
+            <div class="home-image">
+                <img src="home-image.png" alt="Home Image"> 
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat. Nullam quis arcu feugiat.</p>
+            <div class="about-skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about-image">
+                <img src="" alt="Professional potrait">
+            </div>
+            <div class="about-content">
+                <span class="section-subtitle">MY BIOGRAPHY</span>
+                <h2 class="section-title">A Lead UI Designer & Web Developer Based in UK</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat. 
+                    Nullam quis arcu feugiat, varius nisi non, dignissim libero. Sed et ipsum nec mi sagittis tincidunt.</p>
+                <!-- Contact info -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span>Name: </span>
+                        <a href="#">John Watson</a>
+                    </div>
+                    <div class="info-item">
+                        <span>Email: </span>
+                        <a href="mailto:info@example.com"></a>
+                    </div>
+                    <div class="info-item">
+                        <span>Phone: </span>
+                        <a href="tel:+1234567890"></a>
+                    </div>
+                    <div class="info-item">
+                        <span>Location: </span>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <!-- Social media links -->
+                <div class="social-links">
+                    <span>Follow me on: </span>
+                    <a href="#" class="social-icon"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="twitter-icon.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                    <a href="#" class="social-icon"><img src="instagram-icon.png" alt="Instagram"></a>
+                </div>
+                <!-- Hire me and download my CV button -->
+                <div class="cta-buttons">
+                    <a href="#cv" class="btn btn-secondary">Download CV</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What I Do For You</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat.</p>
+                </div>
+            </div>
+            <div class="more-services">
+                <a href="#more-services" class="btn btn-outline">More Services
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="skills-content">
+                <span class="section-subtitle">MY SKILLS</span>
+                <h2 class="section-title">My Featured Skills</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat. Nullam quis arcu feugiat, varius nisi non, dignissim libero.</p>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">UI & UX Designs</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Frontend Development</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Responsive Web Design</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-image">
+                <img src="skills-image.png" alt="Skills Image"> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Skills Section -->
+    <section id="additional-skills">
+        <div class="container">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat.</p>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Design Skills</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat.</p>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Research & Analysis</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat.</p>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Customer Support</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat.</p>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Marketing & Analytics</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat.</p>
+                    </div>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Responsive Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam ipsum et hendrerit placerat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number">135</h3>
+                    <p class="stat-title">Projects Completed</p>
+                </div>
+                
+                <div class="stat-item">
+                    <h3 class="stat-number">225</h3>
+                    <p class="stat-title">Happy Clients</p>
+                </div>
+                
+                <div class="stat-item">
+                    <h3 class="stat-number">115</h3>
+                    <p class="stat-title">Awards Won</p>
+                </div>
+                
+                <div class="stat-item">
+                    <h3 class="stat-number">272</h3>
+                    <p class="stat-title">Cups of Coffee</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Success Work</h2>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Portfolio item 1">
+                    <div class="portfolio-overlay">
+                        <h3>Web Design Project</h3>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Portfolio item 2">
+                    <div class="portfolio-overlay">
+                        <h3>App Development</h3>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Portfolio item 3">
+                    <div class="portfolio-overlay">
+                        <h3>Product Photography</h3>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Portfolio item 4">
+                    <div class="portfolio-overlay">
+                        <h3>UI/UX Design</h3>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Portfolio item 5">
+                    <div class="portfolio-overlay">
+                        <h3>Branding Project</h3>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Portfolio item 6">
+                    <div class="portfolio-overlay">
+                        <h3>Web Development</h3>
+                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications/Clients Section -->
+    <section id="certifications">
+        <div class="container">
+            <div class="certifications-grid">
+                <div class="certification-item">
+                    <img src="/placeholder.svg?height=100&width=150" alt="Certification 1">
+                </div>
+                
+                <div class="certification-item">
+                    <img src="/placeholder.svg?height=100&width=150" alt="Certification 2">
+                </div>
+                
+                <div class="certification-item">
+                    <img src="/placeholder.svg?height=100&width=150" alt="Certification 3">
+                </div>
+                
+                <div class="certification-item">
+                    <img src="/placeholder.svg?height=100&width=150" alt="Certification 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <a href="#"><i class="fas fa-mountain"></i> UI Portfolio</a>
+                </div>
+            </div>
+            
+            <div class="footer-middle">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+12 345 6789</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@example.com</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>London street 123, UK</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2023 UI Portfolio. All Rights Reserved.</p>
+                
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JS File -->
+    <script src="script.js"></script> 
+</body>
+</html>
