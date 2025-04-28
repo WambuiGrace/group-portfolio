@@ -67,3 +67,4 @@ This project was collaboratively developed by the following team members:
 
 - **Grace Wambui** - wambuigm55@gmail.com
 - **Said Maalim** - saidibrah06@gmail.com
+- **Klaas Matlou** - tshupianematlou@gmail.com
