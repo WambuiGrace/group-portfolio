@@ -846,7 +846,6 @@ body.dark-mode {
 /* Update header, nav, sections, footer, etc for dark mode */
 body.dark-mode header,
 body.dark-mode footer,
-body.dark-mode nav,
 body.dark-mode section {
     background-color: #1e1e1e;
 }
@@ -861,5 +860,5 @@ body.dark-mode .portfolio-item {
 
 /* Optional: Link colors */
 body.dark-mode a {
-    color: #90caf9;
+    color: #fff;
 }
