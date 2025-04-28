@@ -48,6 +48,20 @@ The primary objectives of this project are:
 ## Live Demo
 Check out the live version of the website here: [UI Portfolio Website](https://group-portfolio-tau.vercel.app/)
 
+## Screenshots
+A snippet of what the site looks like:
+### Homepage
+![Homepage Screenshot](images/1.png)
+
+### About Section
+![About Section Screenshot](images/2.png)
+
+### Services Section
+![Services Section Screenshot](images/3.png)
+
+### Footer Section
+![Footer Section Screenshot](images/7.png)
+
 ## Contributors
 This project was collaboratively developed by the following team members:
 
