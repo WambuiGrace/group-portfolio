@@ -45,6 +45,9 @@ The primary objectives of this project are:
 2. Open `index.html` in a browser to view the website.
 3. Modify the content in `index.html` and `styles.css` to customize the portfolio.
 
+## Live Demo
+Check out the live version of the website here: [UI Portfolio Website](https://group-portfolio-tau.vercel.app/)
+
 ## Contributors
 This project was collaboratively developed by the following team members:
 
