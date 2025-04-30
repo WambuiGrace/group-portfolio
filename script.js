@@ -23,7 +23,7 @@ menuToggle.addEventListener('click', () => {
   function animateCounters() {
     counters.forEach(counter => {
       const target = +counter.textContent;
-      counter.textContent = '0';
+      counter.textContent =  '0';
       const updateCount = () => {
         const current = +counter.textContent;
         const increment = target / 100;

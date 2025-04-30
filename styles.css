@@ -39,7 +39,7 @@ body {
 }
 
 /* Small screen styling */
-@media (max-width: 768px) {
+@media (max-width:  768px) {
   .menu-toggle {
     display: block;
   }
